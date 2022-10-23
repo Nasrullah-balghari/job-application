@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.heading {
+    color: #666;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main_div {
+    background-color: white;
+    width: 570px;
+    height: 700px;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 5px;
+
+}
+
+.web {
+    color: #6c5ce7;
+    font-size: large;
+}
+
+.input {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.first_input {
+    margin: 20px;
+}
+
+.last_name {
+    margin: 20px;
+}
+
+.name_inp {
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+.email_input {
+    margin: 20px;
+}
+
+.job_role {
+    margin: 20px;
+}
+
+.select {
+    padding: 10px;
+    padding-right: 75px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.address {
+    margin: 20px;
+}
+
+.textarea {
+    width: 500px;
+    border-radius: 5px;
+    resize: none;
+    border: 2px solid black;
+}
+
+#date {
+    width: 220px;
+}
+
+#file {
+    border: 2px solid black;
+    width: 230px;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-left: 400px;
+}
+.button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.name_inp:hover {
+    border-color: #0984e3;
+}
+.select:hover {
+    border-color: #0984e3;
+}
+.textarea:hover{
+    border-color: #0984e3;
+}
+
+@media only screen and (max-width: 480px){
+   .main_div{
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+   }
+   .textarea {
+    width: 230px;
+    height: 100px;
+   }
+   .button {
+    margin-left: 250px;
+   }
+}
